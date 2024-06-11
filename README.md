@@ -1,5 +1,5 @@
 # biblepoet
 
-Bible Poet
+> Currently a work in progress!
 
-Based on ![this repo](https://github.com/openbibleinfo/Bible-Passage-Reference-Parser)
+Bible Poet: Node.js library for parsing Bible references from text
