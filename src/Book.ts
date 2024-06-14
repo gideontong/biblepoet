@@ -1,3 +1,5 @@
 class Book {
-	constructor() {}
+      prev: Book;
+      next: Book;
+      constructor() { }
 }
