@@ -1,3 +1,3 @@
 class Chapter {
-	constructor() {}
+  constructor() {}
 }
