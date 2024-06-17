@@ -1,0 +1,25 @@
+name: 'Close stale issues and PRs'
+on:
+  schedule:
+    - cron: '30 1 * * *'
+  workflow_dispatch:
+
+permissions:
+  issues: write
+  pull-requests: write
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/stale@v9
+        with:
+          stale-pr-message: 'This PR has been stale for 2 weeks. If no activity or progress is made in the next week, it will be closed.'
+          close-pr-message: 'This PR has been closed because the original author has abandoned work on it.'
+          days-before-stale: -1
+          days-before-pr-stale: 14
+          days-before-pr-close: 7
+          stale-issue-label: 'stale'
+          exempt-issue-labels: 'needs-triage,needs-review,backlog'
+          stale-pr-labels: 'stale'
+          exempt-pr-labels: 'wip'
