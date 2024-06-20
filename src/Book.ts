@@ -2,5 +2,6 @@
 class Book {
   prev: Book;
   next: Book;
+  chapterCount: number;
   constructor() { }
 }
