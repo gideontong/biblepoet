@@ -1,7 +1,8 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-class Book {
-  prev: Book;
-  next: Book;
+class Book<T> {
+  prev: Book<T>;
+  next: Book<T>;
   chapterCount: number;
+  metadata: T[] [];
   constructor() { }
 }
