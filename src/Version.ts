@@ -1,4 +1,4 @@
-// eslint-disable-next-line @typescript-eslint/no-used-vars
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 class Version {
-	constructor() { }
+  constructor() {}
 }
