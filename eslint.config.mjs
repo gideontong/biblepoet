@@ -14,7 +14,7 @@ export default [
       '@stylistic/ts/indent': ['error', 2]
     }
   },
-  { files: ["**/*.js"], languageOptions: { sourceType: "commonjs" } },
+  { files: ["**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx"], languageOptions: { sourceType: "commonjs" } },
   { languageOptions: { globals: globals.node, parser: parserTs } },
   pluginJs.configs.recommended,
   ...tseslint.configs.recommended,
