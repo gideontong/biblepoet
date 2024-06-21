@@ -1,14 +1,15 @@
 {
   "name": "biblepoet",
-  "version": "1.0.0",
-  "description": "Bible Poet",
+  "version": "0.1.0",
+  "description": "Bible querying library",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Gideon Tong <gideon@gideontong.com>",
+  "keywords": ["Bible", "library"],
   "license": "MIT",
+  "private": "true",
   "devDependencies": {
     "@eslint/js": "^9.4.0",
     "@stylistic/eslint-plugin-ts": "^2.1.0",
