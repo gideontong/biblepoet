@@ -11,7 +11,8 @@ export default [
       '@stylistic/ts': stylisticTs
     },
     rules: {
-      '@stylistic/ts/indent': ['error', 2]
+      '@stylistic/ts/indent': ['error', 2],
+      'eol-last': ['error', 'always']
     }
   },
   { files: ["**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx"], languageOptions: { sourceType: "commonjs" } },
