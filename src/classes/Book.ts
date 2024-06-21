@@ -1,4 +1,3 @@
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 class Book {
   name: string;
   // TODO: Only allow valid languages
@@ -8,3 +7,5 @@ class Book {
   next: Book;
   constructor() { }
 }
+
+export default Book;

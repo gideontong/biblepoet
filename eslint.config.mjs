@@ -7,6 +7,13 @@ import parserTs from '@typescript-eslint/parser';
 
 export default [
   {
+    files: ["**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx"],
+    languageOptions: { sourceType: "commonjs" }
+  },
+  { languageOptions: { globals: globals.node, parser: parserTs } },
+  pluginJs.configs.recommended,
+  ...tseslint.configs.recommended,
+  {
     plugins: {
       '@stylistic/ts': stylisticTs
     },
@@ -15,8 +22,7 @@ export default [
       'eol-last': ['error', 'always']
     }
   },
-  { files: ["**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx"], languageOptions: { sourceType: "commonjs" } },
-  { languageOptions: { globals: globals.node, parser: parserTs } },
-  pluginJs.configs.recommended,
-  ...tseslint.configs.recommended,
+  {
+    ignores: ["docs/*"]
+  }
 ];
