@@ -1,6 +1,6 @@
 {
-  "extends": "@tsconfig/node-lts/tsconfig.json",
   "compilerOptions": {
+    "target": "ES2023",
     "allowUnreachableCode": false
   },
   "include": [
