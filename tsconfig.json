@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "allowUnreachableCode": false
+  },
+  "include": [
+    "src/**/*"
+  ]
+}

@@ -1,21 +1,28 @@
 {
   "name": "biblepoet",
-  "version": "1.0.0",
-  "description": "Bible Poet",
+  "version": "0.1.0",
+  "description": "Bible querying library",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "NODE_PATH=./src tsc -p tsconfig.json --outDir dist",
+    "docs": "typedoc",
+    "lint": "eslint . --fix"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Gideon Tong <gideon@gideontong.com>",
+  "keywords": [
+    "Bible",
+    "library"
+  ],
   "license": "MIT",
   "devDependencies": {
     "@eslint/js": "^9.4.0",
     "@stylistic/eslint-plugin-ts": "^2.1.0",
     "@types/eslint__js": "^8.42.3",
+    "@types/node": "20.0.0",
     "@typescript-eslint/eslint-plugin": "^7.13.0",
     "@typescript-eslint/parser": "^7.13.0",
     "eslint": "^8.57.0",
+    "typedoc": "^0.25.13",
     "typescript": "^5.4.5",
     "typescript-eslint": "^7.13.0"
   }
