@@ -5,7 +5,7 @@ class Book {
   chapterCount: number;
   prev: Book;
   next: Book;
-  metadata: Object;
+  metadata: object;
   constructor() { }
 }
 
