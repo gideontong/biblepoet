@@ -1,5 +1,8 @@
 import Book from "../classes/Book";
 
+// thank you Gemini
+// underscore in front of numbers to keep the naming convention consistent
+
 const Genesis = new Book();
 const Exodus = new Book();
 const Leviticus = new Book();
