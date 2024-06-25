@@ -19,8 +19,8 @@ export default [
     },
     rules: {
       '@stylistic/ts/indent': ['error', 2],
-      'eol-last': ['error', 'always'],
       '@stylistic/ts/quotes': ['error', 'single'],
+      'eol-last': ['error', 'always'],
     }
   },
   {
