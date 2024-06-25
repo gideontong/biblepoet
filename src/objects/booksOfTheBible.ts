@@ -1,8 +1,5 @@
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
+/* eslint @typescript-eslint/no-unused-vars: 0 */
 import Book from "../classes/Book";
-
-// thank you Gemini
-// underscore in front of numbers to keep the naming convention consistent
 
 const Genesis = new Book();
 const Exodus = new Book();
@@ -13,13 +10,13 @@ const Deuteronomy = new Book();
 const Joshua = new Book();
 const Judges = new Book();
 const Ruth = new Book();
-const _1Samuel = new Book();
-const _2Samuel = new Book();
+const Samuel_1 = new Book();
+const Samuel_2 = new Book();
 
-const _1Kings = new Book();
-const _2Kings = new Book();
-const _1Chronicles = new Book();
-const _2Chronicles = new Book();
+const Kings_1 = new Book();
+const Kings_2 = new Book();
+const Chronicles_1 = new Book();
+const Chronicles_2 = new Book();
 const Ezra = new Book();
 
 const Nehemiah = new Book();
@@ -59,28 +56,28 @@ const John = new Book();
 
 const Acts = new Book();
 const Romans = new Book();
-const _1Corinthians = new Book();
-const _2Corinthians = new Book();
+const Corinthians_1 = new Book();
+const Corinthians_2 = new Book();
 const Galatians = new Book();
 
 const Ephesians = new Book();
 const Philippians = new Book();
 const Colossians = new Book();
-const _1Thessalonians = new Book();
-const _2Thessalonians = new Book();
+const Thessalonians_1 = new Book();
+const Thessalonians_2 = new Book();
 
-const _1Timothy = new Book();
-const _2Timothy = new Book();
+const Timothy_1 = new Book();
+const Timothy_2 = new Book();
 const Titus = new Book();
 const Philemon = new Book();
 const Hebrews = new Book();
 
 const James = new Book();
-const _1Peter = new Book();
-const _2Peter = new Book();
-const _1John = new Book();
-const _2John = new Book();
+const Peter_1 = new Book();
+const Peter_2 = new Book();
+const John_1 = new Book();
+const John_2 = new Book();
 
-const _3John = new Book();
+const John_3 = new Book();
 const Jude = new Book();
 const Revelation = new Book();
