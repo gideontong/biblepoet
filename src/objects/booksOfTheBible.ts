@@ -1,3 +1,4 @@
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import Book from "../classes/Book";
 
 // thank you Gemini
