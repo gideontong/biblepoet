@@ -1,4 +1,4 @@
-/* eslint @typescript-eslint/no-unused-vars: 0 */
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import Book from "../classes/Book";
 
 const Genesis = new Book();
