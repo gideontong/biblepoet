@@ -1,4 +1,4 @@
-import Book from "../classes/Book";
+import Book from '../classes/Book';
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 const Genesis = new Book();
