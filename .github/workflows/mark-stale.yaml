@@ -14,11 +14,11 @@ jobs:
     steps:
       - uses: actions/stale@v9
         with:
-          stale-pr-message: 'This PR has been stale for 2 weeks. If no activity or progress is made in the next week, it will be closed.'
+          stale-pr-message: 'Work on this PR is stalled. It will automatically be closed if the ticket is not updated.'
           close-pr-message: 'This PR has been closed because the original author has abandoned work on it.'
           days-before-stale: -1
-          days-before-pr-stale: 14
-          days-before-pr-close: 7
+          days-before-pr-stale: 7
+          days-before-pr-close: 1
           stale-issue-label: 'stale'
           exempt-issue-labels: 'needs-triage,needs-review,backlog'
           stale-pr-labels: 'stale'
