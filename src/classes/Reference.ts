@@ -1,5 +1,9 @@
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
+import Book from './Book';
+
 class Reference {
+  book: Book;
   metadata: object;
   constructor() {}
 }
+
+export default Reference;

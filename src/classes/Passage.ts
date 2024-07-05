@@ -1,3 +1,5 @@
+import Reference from './Reference';
+
 class Passage {
   passages: [Reference];
   metadata: object;
