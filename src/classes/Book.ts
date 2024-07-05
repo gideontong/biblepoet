@@ -5,7 +5,7 @@
  * @property {number} chapterCount number of chapters in Book
  * @property {Book} prev the previous Book of the Bible
  * @property {Book} next the next Book of the Bible
- * @property {object} metadata data about book
+ * @property {object} metadata data about Book
  */
 class Book {
   name: string;
