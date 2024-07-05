@@ -1,5 +1,5 @@
 /**
- * A subunit of a Chapter, which is a subunit of a Book
+ * A subunit of Chapter, which is a subunit of Book
  * @property {object} metadata data about the Verse
  */
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
