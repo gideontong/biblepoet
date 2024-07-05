@@ -1,5 +1,7 @@
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 class Passage {
+  passages: [Reference];
   metadata: object;
-  constructor() {}
+  constructor() { }
 }
+
+export default Passage;
