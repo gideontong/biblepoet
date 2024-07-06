@@ -1,148 +1,151 @@
 import Book from '../classes/Book';
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const Genesis = new Book();
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const Exodus = new Book();
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const Leviticus = new Book();
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const Numbers = new Book();
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const Deuteronomy = new Book();
+// Old Testament
+const Genesis = new Book('Genesis');
+const Exodus = new Book('Exodus');
+const Leviticus = new Book('Leviticus');
+const Numbers = new Book('Numbers');
+const Deuteronomy = new Book('Deuteronomy');
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const Joshua = new Book();
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const Judges = new Book();
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const Ruth = new Book();
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const Samuel_1 = new Book();
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const Samuel_2 = new Book();
+const Joshua = new Book('Joshua');
+const Judges = new Book('Judges');
+const Ruth = new Book('Ruth');
+const Samuel_1 = new Book('1 Samuel');
+const Samuel_2 = new Book('2 Samuel');
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const Kings_1 = new Book();
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const Kings_2 = new Book();
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const Chronicles_1 = new Book();
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const Chronicles_2 = new Book();
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const Ezra = new Book();
+const Kings_1 = new Book('1 Kings');
+const Kings_2 = new Book('2 Kings');
+const Chronicles_1 = new Book('1 Chronicles');
+const Chronicles_2 = new Book('2 Chronicles');
+const Ezra = new Book('Ezra');
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const Nehemiah = new Book();
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const Esther = new Book();
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const Job = new Book();
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const Psalms = new Book();
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const Proverbs = new Book();
+const Nehemiah = new Book('Nehemiah');
+const Esther = new Book('Esther');
+const Job = new Book('Job');
+const Psalm = new Book('Psalm');
+const Proverbs = new Book('Proverbs');
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const Ecclesiastes = new Book();
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const SongOfSongs = new Book();
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const Isaiah = new Book();
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const Jeremiah = new Book();
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const Lamentations = new Book();
+const Ecclesiastes = new Book('Eccelsiastes');
+const SongOfSolomon = new Book('Song of Solomon');
+const Isaiah = new Book('Isaiah');
+const Jeremiah = new Book('Jeremiah');
+const Lamentations = new Book('Lamentations');
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const Ezekiel = new Book();
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const Daniel = new Book();
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const Hosea = new Book();
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const Joel = new Book();
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const Amos = new Book();
+const Ezekiel = new Book('Ezekiel');
+const Daniel = new Book('Daniel');
+const Hosea = new Book('Hosea');
+const Joel = new Book('Joel');
+const Amos = new Book('Amos');
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const Obadiah = new Book();
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const Jonah = new Book();
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const Micah = new Book();
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const Nahum = new Book();
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const Habakkuk = new Book();
+const Obadiah = new Book('Obadiah');
+const Jonah = new Book('Jonah');
+const Micah = new Book('Micah');
+const Nahum = new Book('Nahum');
+const Habakkuk = new Book('Habakkuk');
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const Zephaniah = new Book();
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const Haggai = new Book();
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const Zechariah = new Book();
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const Malachi = new Book();
+const Zephaniah = new Book('Zephaniah');
+const Haggai = new Book('Haggai');
+const Zechariah = new Book('Zechariah');
+const Malachi = new Book('Malachi');
 
 // New Testament Books
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const Matthew = new Book();
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const Mark = new Book();
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const Luke = new Book();
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const John = new Book();
+const Matthew = new Book('Matthew');
+const Mark = new Book('Mark');
+const Luke = new Book('Luke');
+const John = new Book('John');
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const Acts = new Book();
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const Romans = new Book();
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const Corinthians_1 = new Book();
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const Corinthians_2 = new Book();
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const Galatians = new Book();
+const Acts = new Book('Acts');
+const Romans = new Book('Romans');
+const Corinthians_1 = new Book('1 Corinthians');
+const Corinthians_2 = new Book('2 Corinthians');
+const Galatians = new Book('Galatians');
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const Ephesians = new Book();
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const Philippians = new Book();
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const Colossians = new Book();
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const Thessalonians_1 = new Book();
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const Thessalonians_2 = new Book();
+const Ephesians = new Book('Ephesians');
+const Philippians = new Book('Philippians');
+const Colossians = new Book('Colossians');
+const Thessalonians_1 = new Book('1 Thessalonians');
+const Thessalonians_2 = new Book('2 Thessalonians');
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const Timothy_1 = new Book();
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const Timothy_2 = new Book();
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const Titus = new Book();
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const Philemon = new Book();
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const Hebrews = new Book();
+const Timothy_1 = new Book('1 Timothy');
+const Timothy_2 = new Book('2 Timothy');
+const Titus = new Book('Titus');
+const Philemon = new Book('Philemon');
+const Hebrews = new Book('Hebrews');
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const James = new Book();
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const Peter_1 = new Book();
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const Peter_2 = new Book();
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const John_1 = new Book();
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const John_2 = new Book();
+const James = new Book('James');
+const Peter_1 = new Book('1 Peter');
+const Peter_2 = new Book('2 Peter');
+const John_1 = new Book('1 John');
+const John_2 = new Book('2 John');
+const John_3 = new Book('3 John');
+const Jude = new Book('Jude');
+const Revelation = new Book('Revelation');
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const John_3 = new Book();
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const Jude = new Book();
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const Revelation = new Book();
+export default {
+  Genesis,
+  Exodus,
+  Leviticus,
+  Numbers,
+  Deuteronomy,
+  Joshua,
+  Judges,
+  Ruth,
+  Samuel_1,
+  Samuel_2,
+  Kings_1,
+  Kings_2,
+  Chronicles_1,
+  Chronicles_2,
+  Ezra,
+  Nehemiah,
+  Esther,
+  Job,
+  Psalm,
+  Proverbs,
+  Ecclesiastes,
+  SongOfSolomon,
+  Isaiah,
+  Jeremiah,
+  Lamentations,
+  Ezekiel,
+  Daniel,
+  Hosea,
+  Joel,
+  Amos,
+  Obadiah,
+  Jonah,
+  Micah,
+  Nahum,
+  Habakkuk,
+  Zephaniah,
+  Haggai,
+  Zechariah,
+  Malachi,
+  Matthew,
+  Mark,
+  Luke,
+  John,
+  Acts,
+  Romans,
+  Corinthians_1,
+  Corinthians_2,
+  Galatians,
+  Ephesians,
+  Philippians,
+  Colossians,
+  Thessalonians_1,
+  Thessalonians_2,
+  Timothy_1,
+  Timothy_2,
+  Titus,
+  Philemon,
+  Hebrews,
+  James,
+  Peter_1,
+  Peter_2,
+  John_1,
+  John_2,
+  John_3,
+  Jude,
+  Revelation
+};
