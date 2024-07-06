@@ -1,8 +1,8 @@
 /**
- * A subunit of a Book
- * @property {object} metadata data about Chapter
+ * A book of the Bible consists of one or more chapters. These manmade delineations divide
+ * a book into smaller chunks for easier reference.
+ * @property {object} metadata stores generic data about Chapter such as version or language
  */
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 class Chapter {
   metadata: object;
   constructor() {}

@@ -1,11 +1,12 @@
 /**
- * Represents a Book in the Bible
+ * Represents a book in the Bible
  * @property {string} name name of the Book
  * @property {Map<string, string>} otherNames alternative names for Book
  * @property {number} chapterCount number of chapters in Book
  * @property {Book} prev the previous Book of the Bible
  * @property {Book} next the next Book of the Bible
- * @property {object} metadata data about Book
+ * @property {Version} [version] version of Book
+ * @property {object} metadata stores generic data about Book, like version or language
  */
 import Version from './Version';
 
