@@ -11,7 +11,8 @@
   "author": "Gideon Tong <gideon@gideontong.com>",
   "keywords": [
     "Bible",
-    "library"
+    "library",
+    "parser"
   ],
   "license": "MIT",
   "devDependencies": {

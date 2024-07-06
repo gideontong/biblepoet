@@ -7,6 +7,8 @@
  * @property {Book} next the next Book of the Bible
  * @property {object} metadata data about Book
  */
+import Version from './Version';
+
 class Book {
   name: string;
   // TODO: Only allow valid languages
@@ -14,6 +16,7 @@ class Book {
   chapterCount: number;
   prev: Book;
   next: Book;
+  version?: Version;
   metadata: object;
   constructor() { }
 }
