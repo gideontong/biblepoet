@@ -1,5 +1,14 @@
+import Books from './data/books';
+import Versions from './data/versions.en';
+
 import SimpleParser from './parsers/SimpleParser'
 
-export {
+const Parsers = {
   SimpleParser
+};
+
+export {
+  Books,
+  Versions,
+  Parsers
 };
