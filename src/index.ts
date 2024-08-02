@@ -1,3 +1,5 @@
-import Book from './classes/Book';
+import SimpleParser from './parsers/SimpleParser'
 
-export default Book;
+export {
+  SimpleParser
+};
