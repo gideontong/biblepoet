@@ -1,5 +1,5 @@
-# biblepoet
+# BiblePoet
 
 > Currently a work in progress!
 
-Bible Poet: Node.js library for parsing Bible references from text
+A TypeScript library for parsing Bible references from text.

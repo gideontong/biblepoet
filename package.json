@@ -6,7 +6,8 @@
   "scripts": {
     "build": "NODE_PATH=./src tsc -p tsconfig.json --outDir dist",
     "docs": "typedoc",
-    "lint": "eslint . --fix"
+    "lint": "eslint . --fix",
+    "test": "vitest"
   },
   "author": "Gideon Tong <gideon@gideontong.com>",
   "keywords": [
@@ -25,6 +26,7 @@
     "eslint": "^8.57.0",
     "typedoc": "^0.25.13",
     "typescript": "^5.4.5",
-    "typescript-eslint": "^7.13.0"
+    "typescript-eslint": "^7.13.0",
+    "vitest": "^2.0.5"
   }
 }
