@@ -1,14 +1,23 @@
-import Books from './data/books';
-import Versions from './data/versions.en';
+import * as Versions from './data/versions.en';
 
-import SimpleParser from './parsers/SimpleParser'
+import Book from './classes/Book';
+import Chapter from './classes/Chapter';
+import Passage from './classes/Passage';
+import Reference from './classes/Reference';
+import Verse from './classes/Verse';
+import Version from './classes/Version';
 
-const Parsers = {
-  SimpleParser
-};
+import SimpleParser from './parsers/SimpleParser';
 
 export {
-  Books,
   Versions,
-  Parsers
+
+  Book,
+  Chapter,
+  Passage,
+  Reference,
+  Verse,
+  Version,
+
+  SimpleParser,
 };

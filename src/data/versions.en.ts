@@ -13,7 +13,7 @@ const NKJV = new Version();
 const NASB = new Version();
 const ASV = new Version();
 
-export default {
+export {
   ESV2001,
   ESV2007,
   ESV2011,
