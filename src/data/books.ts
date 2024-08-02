@@ -81,7 +81,7 @@ const John_3 = new Book('3 John');
 const Jude = new Book('Jude');
 const Revelation = new Book('Revelation');
 
-export default {
+export {
   Genesis,
   Exodus,
   Leviticus,

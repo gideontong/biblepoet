@@ -1,3 +1,4 @@
+import * as Books from './data/books';
 import * as Versions from './data/versions.en';
 
 import Book from './classes/Book';
@@ -10,6 +11,7 @@ import Version from './classes/Version';
 import SimpleParser from './parsers/SimpleParser';
 
 export {
+  Books,
   Versions,
 
   Book,
