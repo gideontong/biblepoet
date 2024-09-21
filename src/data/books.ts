@@ -25,7 +25,7 @@ const Job = new Book('Job');
 const Psalm = new Book('Psalm');
 const Proverbs = new Book('Proverbs');
 
-const Ecclesiastes = new Book('Eccelsiastes');
+const Ecclesiastes = new Book('Ecclesiastes');
 const SongOfSolomon = new Book('Song of Solomon');
 const Isaiah = new Book('Isaiah');
 const Jeremiah = new Book('Jeremiah');

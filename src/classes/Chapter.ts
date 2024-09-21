@@ -17,7 +17,7 @@ class Chapter {
   constructor(book: Book, number: number, verseCount?: number) {
     this.book = book;
     this.number = number;
-    this.verseCount = verseCount;
+    this.verseCount = verseCount ? verseCount : 0;
   }
 }
 

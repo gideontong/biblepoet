@@ -10,7 +10,12 @@ class Reference {
   chapter?: Chapter;
   verse?: Verse;
   metadata: object;
-  constructor() {}
+
+  constructor(book: Book, chapter?: Chapter, verse?: Verse) {
+    this.book = book;
+    this.chapter = chapter;
+    this.verse = verse;
+  }
 }
 
 export default Reference;

@@ -21,6 +21,7 @@ export default [
       '@stylistic/ts/indent': ['error', 2],
       '@stylistic/ts/quotes': ['error', 'single'],
       '@stylistic/ts/semi': ['error', 'always'],
+      'max-len': ['error', { 'code': 80 } ],
       'eol-last': ['error', 'always'],
     }
   },
